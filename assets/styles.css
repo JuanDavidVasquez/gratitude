@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #f7f9fc, #e2ebf0);
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header and Main Container */
+  .dateUser {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .dateUser h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007acc;
+    margin-bottom: 10px;
+  }
+  
+  .dateUser h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .dateUser article {
+    background: #f1f5f9;
+    padding: 15px;
+    border-left: 5px solid #007acc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .dateUser article h3 {
+    color: #005f99;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .dateUser article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0px;
+  }
+  .dateUser article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .dateUser article div img{
+    width: 40%;
+    height: 650px;
+    object-fit: cover;
+    
+  }
+
+  .dateUser article ul,
+  .dateUser article li {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .dateUser article ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Gratitude Board */
+  .gratitudeBoard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .gratitudeBoard section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .gratitudeBoard section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gratitudeBoard section h3 {
+    font-size: 1.5rem;
+    color: #007acc;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  .gratitudeBoard section p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  .gratitudeBoard img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Final Section */
+  .gratitudeBoard h2 {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 2rem;
+    color: #005f99;
+    margin-top: 20px;
+  }
+  
